@@ -20,9 +20,9 @@ let createEmployeeRecord = function (data) {
   };
 };
 
-let createEmployeeRecords = function () {
-  
-}
+let createEmployeeRecords = function (employeeData) {
+  return 
+};
 
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
