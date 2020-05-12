@@ -86,3 +86,7 @@ let findEmployeeByFirstName = function (employeeArray, firstName) {
     return record.firstName === firstName;
   });  
 };
+
+let calculatePayroll = function (employeeRecords) {
+  
+};
