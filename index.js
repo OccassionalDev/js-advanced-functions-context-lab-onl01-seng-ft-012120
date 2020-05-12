@@ -88,5 +88,5 @@ let findEmployeeByFirstName = function (employeeArray, firstName) {
 };
 
 let calculatePayroll = function (employeeRecords) {
-  
+  return employeeRecords.reduce(function(), 0);
 };
