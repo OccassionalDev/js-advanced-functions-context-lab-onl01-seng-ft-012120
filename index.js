@@ -31,8 +31,11 @@ let createTimeInEvent = function (dateStamp) {
   
   this.timeInEvents.push({
     type: "TimeIn",
-    
-  })
+    hour: parseInt(hour, 10),
+    date
+  });
+  
+  return this;
 };
 
 let allWagesFor = function () {
