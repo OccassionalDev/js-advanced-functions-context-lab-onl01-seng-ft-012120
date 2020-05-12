@@ -62,6 +62,10 @@ let hoursWorkedOnDate = function(dateToFind) {
   return (timeOutDay.hour - timeInDay.hour)/100;
 };
 
+let wagesEarnedOnDate = function (dateStamp) {
+  let validDates = 
+};
+
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
         return e.date;
