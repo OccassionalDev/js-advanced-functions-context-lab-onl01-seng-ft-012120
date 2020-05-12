@@ -59,7 +59,7 @@ let hoursWorkedOnDate = function(dateToFind) {
     return event.date === dateToFind;
   });
   
-  return (timeOutDay - timeInDay)/100;
+  return (timeOutDay.hour - timeInDay.hour)/100;
 };
 
 let allWagesFor = function () {
