@@ -29,7 +29,9 @@ let createEmployeeRecords = function (employeeData) {
 let createTimeInEvent = function (dateStamp) {
   let [date, hour] = dateStamp.split(" ");
   
-  
+  this.timeInEvents.push({
+    type: "timeIn"
+  })
 };
 
 let allWagesFor = function () {
