@@ -63,7 +63,10 @@ let hoursWorkedOnDate = function(dateToFind) {
 };
 
 let wagesEarnedOnDate = function (dateStamp) {
-  let wage = 
+  let wage = hoursWorkedOnDate.call(this, dateSought)
+        * this.payPerHour;
+        
+  return parseFloat(wage);
 };
 
 let allWagesFor = function () {
