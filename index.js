@@ -21,7 +21,9 @@ let createEmployeeRecord = function (data) {
 };
 
 let createEmployeeRecords = function (employeeData) {
-  return 
+  return employeeData.map(function (data) {
+    return createEmployeeRecord(data);
+  });
 };
 
 let allWagesFor = function () {
