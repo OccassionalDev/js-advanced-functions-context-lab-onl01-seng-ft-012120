@@ -30,7 +30,8 @@ let createTimeInEvent = function (dateStamp) {
   let [date, hour] = dateStamp.split(" ");
   
   this.timeInEvents.push({
-    type: "timeIn"
+    type: "TimeIn",
+    
   })
 };
 
