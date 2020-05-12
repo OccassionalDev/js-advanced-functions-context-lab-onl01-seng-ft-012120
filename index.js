@@ -51,8 +51,10 @@ let createTimeOutEvent = function (dateStamp) {
 };
 
 let hoursWorkedOnDate = function(dateToFind) {
-  let timeInDay = 
-}
+  let timeInDay = this.timeInEvents.find(function (event) {
+    return event.date === this.date;
+  });
+};
 
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
