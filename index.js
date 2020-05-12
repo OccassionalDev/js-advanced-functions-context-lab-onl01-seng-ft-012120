@@ -80,3 +80,7 @@ let allWagesFor = function () {
 
     return payable;
 };
+
+let findEmployeeByFirstName = function (employeeArray) {
+  
+}
