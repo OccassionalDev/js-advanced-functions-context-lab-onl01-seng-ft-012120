@@ -26,6 +26,10 @@ let createEmployeeRecords = function (employeeData) {
   });
 };
 
+let createTimeInEvent = function (employee, dateStamp) {
+  let timeInDay = function()
+}
+
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
         return e.date;
