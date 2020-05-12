@@ -63,7 +63,7 @@ let hoursWorkedOnDate = function(dateToFind) {
 };
 
 let wagesEarnedOnDate = function (dateStamp) {
-  let validDates = 
+  let wage = 
 };
 
 let allWagesFor = function () {
