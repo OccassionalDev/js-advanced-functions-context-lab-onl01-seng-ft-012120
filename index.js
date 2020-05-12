@@ -82,5 +82,7 @@ let allWagesFor = function () {
 };
 
 let findEmployeeByFirstName = function (employeeArray, firstName) {
-  return employeeArray.  
-}
+  return employeeArray.find(function(record) {
+    
+  });  
+};
