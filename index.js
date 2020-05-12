@@ -62,8 +62,8 @@ let hoursWorkedOnDate = function(dateToFind) {
   return (timeOutDay.hour - timeInDay.hour)/100;
 };
 
-let wagesEarnedOnDate = function (dateStamp) {
-  let wage = hoursWorkedOnDate.call(this, dateSought)
+let wagesEarnedOnDate = function (payDate) {
+  let wage = hoursWorkedOnDate.call(this, payDate)
         * this.payPerHour;
         
   return parseFloat(wage);
