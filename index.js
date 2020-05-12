@@ -81,6 +81,6 @@ let allWagesFor = function () {
     return payable;
 };
 
-let findEmployeeByFirstName = function (employeeArray) {
-  
+let findEmployeeByFirstName = function (employeeArray, firstName) {
+  return employeeArray.  
 }
