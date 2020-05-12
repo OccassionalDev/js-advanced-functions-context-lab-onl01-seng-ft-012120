@@ -50,6 +50,8 @@ let createTimeOutEvent = function (dateStamp) {
   return this;
 };
 
+let hoursWorkedOnDate = function()
+
 let allWagesFor = function () {
     let eligibleDates = this.timeInEvents.map(function (e) {
         return e.date;
