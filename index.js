@@ -52,11 +52,11 @@ let createTimeOutEvent = function (dateStamp) {
 
 let hoursWorkedOnDate = function(dateToFind) {
   let timeInDay = this.timeInEvents.find(function (event) {
-    return event.date === this.date;
+    return event.date === dateToFind;
   });
   
   let timeOutDay = this.timeOutEvents.find(function (event) {
-    return event.date === this.date;
+    return event.date === dateToFind;
   });
   
   return (timeOutDay - timeInDay)/100;
